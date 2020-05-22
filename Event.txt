@@ -1,0 +1,35 @@
+#include <iostream>
+#include <fstream>
+#include<string.h>
+#include<sstream>
+#include<list>
+using namespace std;
+#include "EventType.cpp"
+class Event
+{
+    private:
+    string eventName, eventDetail, eventOrganiser;
+    EventType type;
+    public:
+    void setName(string name){
+        eventName=name;
+    }
+    void setDetail(string detail){
+        eventDetail=detail;
+    }
+    void setOrganiser(string organiser){
+        eventOrganiser=organiser;
+    }
+    string getName(){
+        return eventName;
+    }
+    string getDetail(){
+        return eventDetail;
+    }
+    string getOrganiser(){
+        return eventOrganiser;
+    }
+
+//fill your code here
+
+};
