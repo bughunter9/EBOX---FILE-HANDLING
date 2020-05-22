@@ -1,0 +1,28 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+    int n, x, sume=0, sumo=0;
+    cout<<"Enter the choice\n";
+    cout<<"1.Odd\n";
+    cout<<"2.Even\n";
+    cin>>n;
+    ifstream fin;
+    fin.open("file.txt");
+    while(!fin.eof()){
+        fin>>x;
+        if(x%2==0){
+            sume+=x;
+        }
+        else {
+            sumo+=x;
+        }
+    }
+    if(n==1){
+        cout<<"The total of all numbers is "<<sumo;
+    }
+    else if(n==2){
+        cout<<"The total of all numbers is "<<sume;
+    }
+}
