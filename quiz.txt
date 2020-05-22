@@ -1,0 +1,10 @@
+1. None of the above
+2. ios::truncate
+3. To open a file for output and move the read/write control to the end of the file
+4. fileobject.open ("sample.txt", ios::out);
+5. bool
+6. Space between the Words :3
+7. All the mentioned
+8. Writes to a file
+9. None of the above
+10. ios::truck
